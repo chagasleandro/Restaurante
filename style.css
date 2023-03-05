@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*  Mini Framework */
+
+html, body {
+    height: 100%;
+}
+
+.max-widht {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.bg {
+    background: url('image/bg.png');
+    background-size: cover;
+    height: auto;
+}
+
+.container {
+    max-width: 1330px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
